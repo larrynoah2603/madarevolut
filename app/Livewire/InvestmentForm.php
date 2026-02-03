@@ -348,6 +348,7 @@ class InvestmentForm extends Component
      */
     public function render()
     {
-        return view('livewire.investment-form');
+        return view('livewire.investment-form')
+            ->layout('layouts.app');
     }
 }
