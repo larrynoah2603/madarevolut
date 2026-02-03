@@ -340,8 +340,6 @@ de confirmation avant finalisation de l'investissement
         </div>
     @endif
 
-</div>
-
 {{-- Styles CSS pour animations --}}
 <style>
     @keyframes fade-in {
@@ -366,3 +364,4 @@ de confirmation avant finalisation de l'investissement
         animation: slide-up 0.3s ease-out;
     }
 </style>
+</div>
