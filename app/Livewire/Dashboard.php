@@ -343,6 +343,7 @@ class Dashboard extends Component
     public function render()
     {
         // Retourne la vue Blade avec toutes les données
-        return view('livewire.dashboard');
+        return view('livewire.dashboard')
+            ->layout('layouts.app');
     }
 }
