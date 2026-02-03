@@ -63,7 +63,7 @@ class Dashboard extends Component
      */
     protected $rules = [
         'transferAmount' => 'required|numeric|min:1000', // Minimum 1000 Ar
-        'transferPhoneNumber' => 'required|regex:/^(0|\+261)[0-9]{9}$/', // Format malgache
+        'transferPhoneNumber' => 'required|regex:#^(0|\\+261)[0-9]{9}$#', // Format malgache
         'transferProvider' => 'required|in:mvola,orange,airtel', // Opérateurs valides
         'transferDescription' => 'nullable|string|max:255', // Description optionnelle
     ];

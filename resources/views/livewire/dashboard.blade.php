@@ -391,8 +391,6 @@ Modal inclus pour les transferts Mobile Money
         </div>
     @endif
 
-</div>
-
 {{-- Styles CSS additionnels pour les animations --}}
 <style>
     /* Animation fade-in pour les messages */
@@ -435,3 +433,4 @@ Modal inclus pour les transferts Mobile Money
     chart.render();
 </script>
 --}}
+</div>
