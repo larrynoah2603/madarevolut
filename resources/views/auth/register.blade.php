@@ -30,11 +30,11 @@
                 <label class="block text-sm font-medium text-gray-700" for="subscription_plan">Forfait</label>
                 <select id="subscription_plan" name="subscription_plan"
                         class="mt-1 w-full rounded-lg border-gray-300 focus:border-indigo-500 focus:ring-indigo-500">
-                    <option value="standard">Standard (gratuit)</option>
-                    <option value="plus">Plus</option>
-                    <option value="premium">Premium</option>
-                    <option value="metal">Metal</option>
-                    <option value="ultra">Ultra</option>
+                    <option value="standard" @selected(old('subscription_plan', 'standard') === 'standard')>Standard (gratuit)</option>
+                    <option value="plus" @selected(old('subscription_plan') === 'plus')>Plus</option>
+                    <option value="premium" @selected(old('subscription_plan') === 'premium')>Premium</option>
+                    <option value="metal" @selected(old('subscription_plan') === 'metal')>Metal</option>
+                    <option value="ultra" @selected(old('subscription_plan') === 'ultra')>Ultra</option>
                 </select>
             </div>
 
