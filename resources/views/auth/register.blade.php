@@ -10,20 +10,19 @@
 
             <div>
                 <label class="block text-sm font-medium text-gray-700" for="name">Nom complet</label>
-                <input id="name" name="name" type="text" required autofocus autocomplete="name"
+                <input id="name" name="name" type="text" required autofocus
                        class="mt-1 w-full rounded-lg border-gray-300 focus:border-indigo-500 focus:ring-indigo-500">
             </div>
 
             <div>
                 <label class="block text-sm font-medium text-gray-700" for="email">Email</label>
-                <input id="email" name="email" type="email" required autocomplete="email"
+                <input id="email" name="email" type="email" required
                        class="mt-1 w-full rounded-lg border-gray-300 focus:border-indigo-500 focus:ring-indigo-500">
             </div>
 
             <div>
                 <label class="block text-sm font-medium text-gray-700" for="phone_number">Téléphone</label>
-                <input id="phone_number" name="phone_number" type="text" required autocomplete="tel"
-                       value="{{ old('phone_number') }}"
+                <input id="phone_number" name="phone_number" type="text" required
                        class="mt-1 w-full rounded-lg border-gray-300 focus:border-indigo-500 focus:ring-indigo-500">
             </div>
 
@@ -41,13 +40,13 @@
 
             <div>
                 <label class="block text-sm font-medium text-gray-700" for="password">Mot de passe</label>
-                <input id="password" name="password" type="password" required autocomplete="new-password"
+                <input id="password" name="password" type="password" required
                        class="mt-1 w-full rounded-lg border-gray-300 focus:border-indigo-500 focus:ring-indigo-500">
             </div>
 
             <div>
                 <label class="block text-sm font-medium text-gray-700" for="password_confirmation">Confirmer le mot de passe</label>
-                <input id="password_confirmation" name="password_confirmation" type="password" required autocomplete="new-password"
+                <input id="password_confirmation" name="password_confirmation" type="password" required
                        class="mt-1 w-full rounded-lg border-gray-300 focus:border-indigo-500 focus:ring-indigo-500">
             </div>
 
